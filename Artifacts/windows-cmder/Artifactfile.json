@@ -10,6 +10,6 @@
     "iconUri": "https://community.chocolatey.org/content/packageimages/Cmder.1.3.20.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "powershell.exe choco install cmder -y"
+        "commandToExecute": "['powershell.exe -executionpolicy bypass -File Artifactfile.ps1']"
     }
 }
