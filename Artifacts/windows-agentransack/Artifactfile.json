@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
     "title": "Agent Ransack",
     "publisher": "Mythicsoft",
-    "description": "Installs Insomnia using the Chocolatey package manager",
+    "description": "Installs Agent Ransack using the Chocolatey package manager",
     "tags": [
         "Windows",
         "Agent Ransack"
