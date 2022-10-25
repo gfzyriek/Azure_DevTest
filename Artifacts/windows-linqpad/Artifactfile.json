@@ -10,6 +10,6 @@
     "iconUri": "https://community.chocolatey.org/content/packageimages/linqpad.7.4.9.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "powershell.exe choco install linqpad -y"
+        "commandToExecute": "['powershell.exe -executionpolicy bypass -File Artifactfile.ps1']"
     }
 }
