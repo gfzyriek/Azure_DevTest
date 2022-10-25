@@ -10,6 +10,6 @@
     "iconUri": "https://community.chocolatey.org/content/packageimages/azure-data-studio.1.39.1.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "powershell.exe choco install azure-data-studio -y"
+        "commandToExecute": "['powershell.exe -executionpolicy bypass -File Artifactfile.ps1']"
     }
 }
