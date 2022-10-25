@@ -10,6 +10,6 @@
     "iconUri": "https://cdn.jsdelivr.net/gh/ferventcoder/chocolatey-packages@02c21bebe5abb495a56747cbb9b4b5415c933fc0/icons/resharper.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "powershell.exe choco install resharper -y"
+        "commandToExecute": "['powershell.exe -executionpolicy bypass -File Artifactfile.ps1']"
     }
 }
