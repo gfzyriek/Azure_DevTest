@@ -7,7 +7,7 @@
         "Windows",
         "Insomnia"
     ],
-    "iconUri": "https://github.com/gfzyriek/Azure_DevTest/blob/master/icons/insomnia.jpg",
+    "iconUri": "https://community.chocolatey.org/content/packageimages/insomnia-rest-api-client.2022.5.0.png",
     "targetOsType": "Windows",
     "runCommand": {
         "commandToExecute": "powershell.exe choco install insomnia-rest-api-client -y"
