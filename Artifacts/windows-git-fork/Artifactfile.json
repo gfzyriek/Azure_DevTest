@@ -10,6 +10,6 @@
     "iconUri": "https://community.chocolatey.org/content/packageimages/git-fork.1.78.1.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "powershell.exe choco install git-fork -y"
+        "commandToExecute": "['powershell.exe -executionpolicy bypass -File Artifactfile.ps1']"
     }
 }
