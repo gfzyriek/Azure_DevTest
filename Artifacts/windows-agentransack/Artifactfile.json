@@ -10,6 +10,6 @@
     "iconUri": "https://community.chocolatey.org/content/packageimages/agentransack.2022.3326.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "powershell.exe choco install agentransack -y"
+        "commandToExecute": "['powershell.exe -executionpolicy bypass -File Artifactfile.ps1']"
     }
 }
