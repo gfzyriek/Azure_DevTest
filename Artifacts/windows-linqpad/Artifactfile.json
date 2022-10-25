@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "LINQPad",
+    "publisher": "Joseph Albahari",
+    "description": "Installs Yarn using the Chocolatey package manager",
+    "tags": [
+        "Windows",
+        "LINQPad"
+    ],
+    "iconUri": "https://community.chocolatey.org/content/packageimages/linqpad.7.4.9.png",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "powershell.exe choco install linqpad -y"
+    }
+}
