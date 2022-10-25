@@ -7,7 +7,7 @@
         "Windows",
         "Microsoft Azure Data Studio"
     ],
-    "iconUri": "https://github.com/gfzyriek/Azure_DevTest/blob/master/icons/microsoft-azure-data-studio.png",
+    "iconUri": "https://community.chocolatey.org/content/packageimages/azure-data-studio.1.39.1.png",
     "targetOsType": "Windows",
     "runCommand": {
         "commandToExecute": "powershell.exe choco install azure-data-studio -y"
