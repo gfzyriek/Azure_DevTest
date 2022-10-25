@@ -10,6 +10,6 @@
     "iconUri": "https://cdn.windowsreport.com/wp-content/uploads/2020/03/Microsoft-Azure-Storage-Explorer-logo-140x140.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "powershell.exe choco install microsoftazurestorageexplorer -y"
+        "commandToExecute": "['powershell.exe -executionpolicy bypass -File Artifactfile.ps1']"
     }
 }
