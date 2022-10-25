@@ -10,6 +10,6 @@
     "iconUri": "https://cdn.rawgit.com/ferventcoder/chocolatey-packages/02c21bebe5abb495a56747cbb9b4b5415c933fc0/icons/microsoft-sql-server.svg",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe choco install sql-server-2019 -y --params=`"/SQLSYSADMINACCOUNTS=$env:USERDOMAIN\$env:USERNAME`"')]"
+        "commandToExecute": "[concat('powershell.exe choco install sql-server-2019 -y --params=/SQLSYSADMINACCOUNTS=$env:USERDOMAIN\$env:USERNAME')]"
     }
 }
