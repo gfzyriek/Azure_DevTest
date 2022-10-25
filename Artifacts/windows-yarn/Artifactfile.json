@@ -10,6 +10,6 @@
     "iconUri": "https://community.chocolatey.org/content/packageimages/yarn.1.22.19.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "powershell.exe choco install yarn -y"
+        "commandToExecute": "['powershell.exe -executionpolicy bypass -File Artifactfile.ps1']"
     }
 }
