@@ -7,7 +7,7 @@
         "Windows",
         "Microsoft Azure Storage Explorer"
     ],
-    "iconUri": "https://github.com/gfzyriek/Azure_DevTest/blob/master/icons/microsoft-azure-storage-explorer.png",
+    "iconUri": "https://cdn.windowsreport.com/wp-content/uploads/2020/03/Microsoft-Azure-Storage-Explorer-logo-140x140.png",
     "targetOsType": "Windows",
     "runCommand": {
         "commandToExecute": "powershell.exe choco install microsoftazurestorageexplorer -y"
