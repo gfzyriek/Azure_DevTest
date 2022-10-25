@@ -7,7 +7,7 @@
         "Windows",
         "Agent Ransack"
     ],
-    "iconUri": "https://github.com/gfzyriek/Azure_DevTest/blob/master/icons/agent-ransack.png",
+    "iconUri": "https://community.chocolatey.org/content/packageimages/agentransack.2022.3326.png",
     "targetOsType": "Windows",
     "runCommand": {
         "commandToExecute": "powershell.exe choco install agentransack -y"
