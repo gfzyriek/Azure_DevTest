@@ -7,7 +7,7 @@
         "Windows",
         "Yarn"
     ],
-    "iconUri": "https://github.com/gfzyriek/Azure_DevTest/blob/master/icons/yarn.png",
+    "iconUri": "https://community.chocolatey.org/content/packageimages/yarn.1.22.19.png",
     "targetOsType": "Windows",
     "runCommand": {
         "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'yarn', '\"')]"
