@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Cmder",
+    "publisher": "Pet Partners, Inc.",
+    "description": "Installs Cmder using the Chocolatey package manager",
+    "tags": [
+        "Windows",
+        "Cmder"
+    ],
+    "iconUri": "https://github.com/gfzyriek/Azure_DevTest/blob/master/icons/cmder.png",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'cmder', '\"')]"
+    }
+}

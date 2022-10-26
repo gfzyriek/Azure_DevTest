@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Microsoft Azure Storage Explorer",
+    "publisher": "Pet Partners, Inc.",
+    "description": "Installs Microsoft Azure Storage Explorer using the Chocolatey package manager",
+    "tags": [
+        "Windows",
+        "Microsoft Azure Storage Explorer"
+    ],
+    "iconUri": "https://github.com/gfzyriek/Azure_DevTest/blob/master/icons/microsoft-azure-storage-explorer.png",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'microsoftazurestorageexplorer', '\"')]"
+    }
+}
