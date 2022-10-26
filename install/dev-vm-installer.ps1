@@ -1,6 +1,6 @@
 choco install insomnia-rest-api-client --version 2022.5.0 -y
 choco install python --version 3.10.8 -y
-choco install sql-server-2019 --version 15.0.2000.20210324 -y --params="'/SQLSYSADMINACCOUNTS:$env:USERDOMAIN\$env:USERNAME'"
+choco install sql-server-2019 --version 15.0.2000.20210324 -y
 choco install git-fork --version 1.78.1 -y
 choco install nodejs-lts --version 16.18.0 -y
 choco install yarn --version 1.22.19 -y
@@ -14,3 +14,5 @@ choco install visualstudio2022enterprise --version 117.3.6.0 -y
 choco install sql-server-management-studio --version 15.0.18424.0 -y
 choco install vscode --version 1.72.2 -y
 choco install notepadplusplus --version 8.4.5 -y
+choco install git --version 2.38.1 -y
+choco install googlechrome --version 107.0.5304.63 -y
