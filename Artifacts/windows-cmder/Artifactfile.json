@@ -7,7 +7,7 @@
         "Windows",
         "Cmder"
     ],
-    "iconUri": "https://github.com/gfzyriek/Azure_DevTest/blob/master/icons/cmder.png",
+    "iconUri": "https://community.chocolatey.org/content/packageimages/Cmder.1.3.20.png",
     "targetOsType": "Windows",
     "runCommand": {
         "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'cmder', '\"')]"
