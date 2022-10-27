@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "dotCover",
+    "publisher": "Pet Partners, Inc.",
+    "description": "Installs JetBrains dotCover using the Chocolatey package manager",
+    "tags": [
+        "Windows",
+        "dotCover"
+    ],
+    "iconUri": "https://community.chocolatey.org/content/packageimages/dotCover.2022.2.3.png",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'dotcover', '\"')]"
+    }
+}

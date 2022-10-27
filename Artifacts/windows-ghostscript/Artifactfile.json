@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Ghost Script",
+    "publisher": "Pet Partners, Inc.",
+    "description": "Installs Ghost Script using the Chocolatey package manager",
+    "tags": [
+        "Windows",
+        "Ghost Script"
+    ],
+    "iconUri": "https://community.chocolatey.org/content/packageimages/Ghostscript.9.56.1.svg",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'ghostscript', '\"')]"
+    }
+}
