@@ -1,6 +1,7 @@
 choco install agentransack --version 2022.3326 -y
 choco install azure-data-studio --version 1.39.1 -y
 choco install cmder --version 1.3.20 -y
+choco install dotcover --version 2022.2.3 -y
 choco install ghostscript --version 9.56.1 -y
 choco install git --version 2.38.1 -y
 choco install git-fork --version 1.78.1 -y
